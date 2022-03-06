@@ -1,8 +1,9 @@
 import React from "react";
+import Home from "../src/pages/home/index"
 function App() {
   return (
     <div className="App">
-      <p>First Commit</p>
+      <Home />
     </div>
   );
 }
