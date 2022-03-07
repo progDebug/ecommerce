@@ -11,7 +11,7 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-left: 10px;
+    margin-left: 100px;
     height: 100%;
 }
 .left .title h1{
