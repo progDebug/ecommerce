@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .title h1{
-            color: black;
-            font-weight: 900;
-            font-family: 'Arial', 'sans-serif';
+        body{
+            margin: none;
+            padding: none;
+            border: none;
+
+        }
+        header{
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
         }
         .menu .list{
             list-style: none;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
+            display: none;
         }
-        .menu .list li a{
-            color: black;
+        .menu .list a{
             text-decoration: none;
-            margin: 4px;
+        }
+        .menu{
+            margin-right:20px;
         }
     </style>
 </head>
@@ -30,6 +37,7 @@
             <h1>Project 5</h1>
         </div>
         <menu class="menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg>
             <ul class="list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Menu</a></li>
