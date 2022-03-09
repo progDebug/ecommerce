@@ -9,7 +9,7 @@ export default function Jumbotron() {
                 <div className="paragraph">
                     <h1>Delicius food delivery service</h1>
                     <p>If you food lover, our sevice is for you. Delicius food anytime, everywhere.</p>
-                    <Button />
+                    <Button title="VIEW MENU"/>
                 </div>
             </div>
         </>
