@@ -1,7 +1,6 @@
 .container-jumbotron{
-    width: 100vw;
     height: 80vh;
-    background-image: url("../../../public/images/dish-jumbotron.jpeg");
+    background-image: url("../../assets/images/dish-jumbotron.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
