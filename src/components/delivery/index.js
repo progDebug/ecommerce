@@ -1,6 +1,5 @@
 import React from "react";
 import Deliverymen from "../../assets/images/deliveryman.jpg";
-import Cart from "../../assets/images/shopping-cart.jpg";
 import "./index.css";
 
 export default function Delivery() {

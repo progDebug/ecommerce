@@ -1,4 +1,4 @@
-.container-jumbotron .paragraph .view-menu{
+.view-menu{
     background-color: #FF7F7F;
     border: 0;
     border-radius:70px;
@@ -6,4 +6,5 @@
     height: 60px;
     color: white;
     margin-top: 20px;
+    padding: 10px 0 10px 0;
 }
