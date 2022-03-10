@@ -7,7 +7,7 @@ export default function Outdoor() {
         <>
             <div className="container-outdoor">
                 <h1 className="title">Order today and get <span>30 %</span> off</h1>
-                <Button title="order with discount" fontSize="18pt"/>
+                <Button title="order with discount" fontSize="18pt" type="dark"/>
             </div>
         </>
     );

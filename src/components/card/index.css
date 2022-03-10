@@ -8,16 +8,6 @@
     position: relative;
     z-index: -1;
 }
-.order-now{
-    background-color: #FFFCE6;
-    border: 0;
-    border-radius:70px;
-    width: 240px;
-    height: 60px;
-    padding: 10px 0 10px 0;
-    border: 1px solid #FFB2AC;
-    color: black;
-}
 .card{
     width: 300px;
     height: 400px;
