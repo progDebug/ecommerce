@@ -1,0 +1,51 @@
+.our-chefs{
+    color: #294BD1;
+    margin: 0 650px 0 0;
+}
+.container-chefs{
+    width: 100%;
+    height: 100vh;
+    background-color: #FFFCE6;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-chefs .chefs{
+    width: 80%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.container-chefs .chefs .chef{
+    border-radius: 20px;
+}
+.container-chefs .chefs .chef #img{
+    width: 230px;
+    height: 280px;
+    border-radius: 10px 10px 10px 10px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.container-chefs .chefs .chef .img1{
+    background-image: url("../../assets/images/chef1.jpg");
+}
+.container-chefs .chefs .chef .img2{
+    background-image: url("../../assets/images/chef2.jpg");
+}
+.container-chefs .chefs .chef .img3{
+    background-image: url("../../assets/images/chef3.jpg");
+}
+.container-chefs .chefs .chef .img4{
+    background-image: url("../../assets/images/chef4.jpg");
+}
+.container-chefs .chefs .chef .about-chef .classification-chef{
+    color: #A5AAA7;
+    margin-top: 0;
+}
+.container-chefs .chefs .chef .about-chef .name-chef{
+    margin-bottom: 4px;
+}
