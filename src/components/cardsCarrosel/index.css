@@ -1,0 +1,81 @@
+.itens-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #fffce6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+img{
+    width: 100%;
+    height: 100%;
+
+    object-fit:cover;
+}
+.itens{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    overflow-x: hidden;
+
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+.item{
+    flex: none;
+
+    width: 100%;
+
+    scroll-snap-align: start; 
+
+    pointer-events: none;
+
+}
+.setas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+}
+.seta{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+.seta2{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #fffce6;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    z-index: -1;
+    position: absolute;
+}
+.window{
+    width: 900px;
+    height: 490px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+}
+.buraco{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+}

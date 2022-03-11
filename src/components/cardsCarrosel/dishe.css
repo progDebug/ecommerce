@@ -1,0 +1,24 @@
+.itens-wrapper .item {
+  width: 900px;
+  background-color: #fffce6;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.itens-wrapper .item .dishes {
+  width: 270px;
+  height: 100%;
+  background-color: #fffce6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.itens-wrapper .item .dishes .about-dishe * {
+  width: 100%;
+}
+.itens-wrapper .item .dishes .about-dishe {
+  width: 200px;
+}
+.itens-wrapper .item .dishes img {
+  width: 100%;
+}
