@@ -1,12 +1,11 @@
 .itens-wrapper .item {
-  width: 900px;
-  background-color: #fffce6;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 .itens-wrapper .item .dishes {
-  width: 270px;
+  width: 280px;
   height: 100%;
   background-color: #fffce6;
   display: flex;
@@ -16,8 +15,11 @@
 .itens-wrapper .item .dishes .about-dishe * {
   width: 100%;
 }
-.itens-wrapper .item .dishes .about-dishe {
-  width: 200px;
+.itens-wrapper .item .dishes .about-dishe h3{
+  margin-bottom: 0;
+}
+.itens-wrapper .item .dishes .about-dishe .description{
+  margin-top: 0;
 }
 .itens-wrapper .item .dishes img {
   width: 100%;
