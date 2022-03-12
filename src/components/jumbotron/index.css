@@ -17,7 +17,7 @@
     width: 440px;
 }
 .container-jumbotron .paragraph p{
-    width: 300px;
+    font-size: 15pt;
 }
 .container-jumbotron .paragraph .view-menu{
     background-color: #FF7F7F;

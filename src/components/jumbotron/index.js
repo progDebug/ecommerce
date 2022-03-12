@@ -8,7 +8,7 @@ export default function Jumbotron() {
             <div className="container-jumbotron">
                 <div className="paragraph">
                     <h1>Delicius food delivery service</h1>
-                    <p>If you food lover, our sevice is for you. Delicius food anytime, everywhere.</p>
+                    <p>If you food lover, our sevice is for you.<br /> Delicius food anytime, everywhere.</p>
                     <Button title="VIEW MENU" type="dark"/>
                 </div>
             </div>
