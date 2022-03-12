@@ -1,0 +1,14 @@
+.container-valid{
+    display: block;
+}
+.container-invalid{
+    display: none;
+}
+@media (max-width:1225px) {
+    .container-invalid{
+        display: block;
+    }
+    .container-valid{
+        display: none;
+    }
+}
