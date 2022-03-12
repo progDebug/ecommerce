@@ -3,6 +3,6 @@ import "../button/index.css";
 
 export default function Button(props) {
     return(
-        <button className={props.type === "light"?"order-now":"view-menu"} style={{fontSize:props.fontSize}}>{props.title}</button>        
+        <button className={props.type === "light"?"order-now":"view-menu"} style={{fontSize:props.fontSize, margin:props.marg}}>{props.title}</button>        
     );
 };
